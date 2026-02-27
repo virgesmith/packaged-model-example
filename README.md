@@ -19,7 +19,7 @@ Just one: `uv` is installed on the host system.
 End users do not need dev dependencies or write access to the source code. They can install this package as a uv tool directly from github:
 
 ```sh
-uv tool install git+https://github.com/virgesmith/bootstrap-example.git
+uv tool install git+https://github.com/virgesmith/packaged-model-example.git
 ```
 
 and then run the script directly:
