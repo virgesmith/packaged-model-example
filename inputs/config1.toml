@@ -1,0 +1,12 @@
+name = "Configuration 1"
+verbose = false
+
+[baseline]
+file = "baseline.csv"
+
+[timeline]
+start_year = 2026
+end_year = 2035
+
+[gregwt]
+enabled = false
