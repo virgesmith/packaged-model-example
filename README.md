@@ -16,10 +16,16 @@ Just one: `uv` is installed on the host system.
 
 ### End user
 
-End users do not need dev dependencies or write access to the source code. They can install this package as a uv tool directly from github:
+End users do not need dev dependencies or write access to the source code. They can install this package as a uv tool directly from github or from a folder (which may be a remote drive):
 
 ```sh
 uv tool install git+https://github.com/virgesmith/packaged-model-example.git
+```
+
+or
+
+```sh
+uv tool install <path-to-repo-on-local-or-remote-drive>
 ```
 
 and then run the script directly:

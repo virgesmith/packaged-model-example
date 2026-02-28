@@ -18,7 +18,7 @@ dev = [
     "ty>=0.0.19",
 ]
 gregwt = [
-    "scipy>=1.17.1",
+    "statsmodels>=0.14.6",
 ]
 
 [tool.uv]
